@@ -16,6 +16,7 @@
 
 header{
     position: fixed;
+    z-index: 9;
     top: 0px;
     left: 0px;
     background-color: white;
@@ -49,6 +50,7 @@ header li{
 header li .orderOnline{
     color: rgb(96, 170, 22);
     border: 2px rgb(96, 170, 22) solid;
+    padding: 10px;
 }
 
 header a{
@@ -60,13 +62,12 @@ header a{
 /*offers and deals box*/
 
 #offers{
-    margin: 148px 0;
-    height: 260px;
+    margin: 148px 0 50px 0;
     position: relative;
 }
 
 .off img{
-    height: 250px;
+    height:78vh;
     width: 100%;
     object-fit: cover;
    
@@ -79,6 +80,7 @@ header a{
     font-size: 26px;
     color: white;
     margin: 56px 44px;
+    top:28%;
 
 }
 
