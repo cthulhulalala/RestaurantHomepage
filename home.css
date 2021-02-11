@@ -1,0 +1,91 @@
+/*default*/
+*{
+    margin:0;
+    padding:0;
+}
+
+
+/*global*/
+.container{
+    margin: auto;
+    overflow: hidden;
+}
+
+
+/*header and navigation */
+
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: white;
+    height: 24%;
+    width: 100%;
+}
+
+header #branding{
+    float: left;
+    margin: 16px 0;
+    padding: 20px 26px;
+    font-family: 'Caveat', cursive;
+    font-size: 22px;
+    
+}
+
+
+header nav {
+    float: right;
+    margin: 42px 0;
+     padding:  20px 26px;
+}
+
+header li{
+    list-style: none;
+    display: inline;
+    padding: 0px 48px 0px 22px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header li .orderOnline{
+    color: rgb(96, 170, 22);
+    border: 2px rgb(96, 170, 22) solid;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*offers and deals box*/
+
+#offers{
+    margin: 148px 0;
+    height: 260px;
+    position: relative;
+}
+
+.off img{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+   
+}
+
+.off h1{
+    position: absolute;
+    line-height: 1.2em;
+    font-family: 'Inconsolata', monospace;
+    font-size: 26px;
+    color: white;
+    margin: 56px 44px;
+
+}
+
+/*
+Final showcase lunch,bfst and dinner
+*/
+
+#showcase{
+    display: flex;
+}
